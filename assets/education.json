@@ -1,0 +1,32 @@
+[
+    {
+        "logo_img" : "szte-logo.jpg",
+        "course" : "Computer Science Operational Engineering (Üzemmérnök-informatikus)",
+        "school" : "University Of Szeged",
+        "work_date" : "(Sep 2020 - Jun 2023)",
+        "card_img" : "szte.jpg",
+        "learned_techology" : [
+            "Angular", "jQuery", "Java", "Sql", "NoSql", "Git"
+        ]
+    },
+    {
+        "logo_img" : "petrik-logo.jpg",
+        "course" : "Software Developer",
+        "school" : "Petrik Lajos Bilingual Vocational School of Chemistry and Information Technology",
+        "work_date" : "(Sep 2018 - Jun 2020)",
+        "card_img" : "petrik.jpg",
+        "learned_techology" : [
+            "C#", "Php"
+        ]
+    },
+    {
+        "logo_img" : "bri-logo.jpg",
+        "course" : "Graphic Designer",
+        "school" : "Buda Art School",
+        "work_date" : "(Sep 2015 - Jun 2017)",
+        "card_img" : "bri.jpg",
+        "learned_techology" : [
+            "Illustartor", "Photoshop", "InDesign", "Premiere Pro", "After Effects"
+        ]
+    }
+]
