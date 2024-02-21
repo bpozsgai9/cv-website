@@ -1,0 +1,19 @@
+<div class="card-container">
+    <mat-card class="card" *ngFor="let e of fetchedData;">
+        <mat-card-header>
+          <div mat-card-avatar [ngStyle]="{'background-image': 'url(' + assetsFolder + e.logo_img + ')', 'background-size' : 'cover'}"></div>
+          <mat-card-title>{{ e.work_title }}</mat-card-title>
+          <mat-card-subtitle>{{ e.work_sub_title }}</mat-card-subtitle>
+          <mat-card-subtitle>{{ e.work_date }}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src='{{ assetsFolder + e.card_img }}'>
+        <mat-card-content>
+            <mat-chip-set *ngFor="let myChip of e.used_techology;">
+                <mat-chip>{{ myChip }}</mat-chip>
+              </mat-chip-set>
+            <ul *ngFor="let myListElement of e.information;">
+                <li>{{ myListElement }}</li>
+            </ul>
+        </mat-card-content>
+      </mat-card>
+</div>

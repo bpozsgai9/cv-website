@@ -1,1 +1,30 @@
-<app-welcome></app-welcome>
+<mat-sidenav-container>
+    <mat-sidenav #sidenav>
+        <app-menu
+        (onCloseSidenav)="onClose($event, sidenav)"
+        
+        ></app-menu>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <mat-toolbar color="primary">
+            <div fxHide.gt-xs>
+                <button mat-icon-button (click)="onToggleSidenav(sidenav)">
+                    <mat-icon>menu</mat-icon>
+                </button>
+            </div>
+            <div><mat-icon>local_fire_department</mat-icon>BARNABÁS POZSGAI</div>
+            <div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.xs>
+                <ul fxLayout fxLayoutGap="10px" class="navigation-items">
+                    <li><a routerLink="/welcome">Home</a></li>
+                    <li><a routerLink="/experience">Experience</a></li>
+                    <li><a routerLink="/education">Education</a></li>
+                    <li><a routerLink="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </mat-toolbar>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+<!--<app-welcome></app-welcome> -->

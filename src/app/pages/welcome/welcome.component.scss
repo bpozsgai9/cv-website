@@ -3,21 +3,16 @@ div {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    height: 100%;
 }
 
 .main_component {
-    height: 100vh;
+    height: 90vh;
 }
 
 .conatiner {
     font-size: xx-large;
     background-color: brown;
     width: 50%;
-}
-
-img {
-    z-index: 999;
 }
 
 .my_icon {
@@ -27,5 +22,4 @@ img {
 .fire {
     color: purple;
     text-decoration: cyan wavy underline;
-    
 }

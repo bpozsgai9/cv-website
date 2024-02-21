@@ -1,0 +1,60 @@
+[
+    {
+        "logo_img" : "telekom-logo.jpg",
+        "work_title" : "Data Analyst",
+        "work_sub_title" : "Telekom HU - Budapest HQ",
+        "work_date" : "(Aug 2023 - )",
+        "card_img" : "data-analyst.jpg",
+        "used_techology" : [
+            "MS Excel", "PL/SQL & Oracle SQL", "Salesforce Marketing Cloud", "Agile System"
+        ],
+        "information" : [
+            "Close cooperation with Marketing, creating target audience for sales campaigns and SMS sending",
+            "Customer behavior analysis",
+            "Marketing campaign measurement of success ratio"
+        ]
+    },
+    {
+        "logo_img" : "petrik-logo.png",
+        "work_title" : "Information Technology Lecturer (Part Time)",
+        "work_sub_title" : "Petrik Lajos Bilingual Vocational School of Chemistry and Information Technology",
+        "work_date" : "(Sep 2020 - Aug 2022)",
+        "card_img" : "teach.png",
+        "used_techology" : [
+            "Html", "Css", "Javascript", "Photoshop", "Illustrator", "AdobeXd", "After Effects"
+        ],
+        "information" : [
+            "Prepare lessons, which include putting together presentations, writing 3-4 exercises per lesson. Also to consult with the colleague responsible for the subject.",
+            "Supervision of the lessons and class work",
+            "Administration of the lessons"
+        ]
+    },
+    {
+        "logo_img" : "freelance-logo.png",
+        "work_title" : "Freelancer Web & Graphic Designer",
+        "work_sub_title" : "",
+        "work_date" : "(Sep 2020 - )",
+        "card_img" : "freelance.jpg",
+        "used_techology" : [
+            "Three.js", "Photoshop Scripting", "Electron.js", "Bodymovin Vector Animaitions"
+        ],
+        "information" : [
+            "Fun projects for friends and myself"
+        ]
+    },
+    {
+        "logo_img" : "kh.jpg",
+        "work_title" : "Software Testing Intern",
+        "work_sub_title" : "K&H Bank",
+        "work_date" : "(Summer 2019)",
+        "card_img" : "test.png",
+        "used_techology" : [
+            "MS Excel", "Postman", "Jira"
+        ],
+        "information" : [
+            "Administration of transaction tests in the bank transfer system (PSD2 project)",
+            "Bug hunt and administration, close cooperation with IT Business analysts",
+            "IT support for colleagues on the business side"
+        ]
+    }
+]
