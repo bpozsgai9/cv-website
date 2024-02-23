@@ -2,7 +2,7 @@
 
 <img src="./src/assets/freelance.jpg" width="500"/>
 
-(Check it out!)[https://cv-website-a213c.web.app]
+### [Check it out!](https://cv-website-a213c.web.app)
 
 
 ## TechStack 👨‍💻
