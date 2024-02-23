@@ -1,7 +1,8 @@
 mat-card {
     width: 80%;
-    height: 80%;
+    height: fit-content;
     align-self: center;
+    opacity: 0.8;
 }
 
 mat-card-header {
@@ -13,10 +14,15 @@ mat-card-header {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    height: 100%;
+    height: fit-content;
+    background-color: rgb(50,50,50);
+    color: white;
+    
 }
 
 .main_component {
-    height: 100vh;
+    height: 90vh;
     font-size: x-large;
+    /*background-color: rgb(39,39,39);*/
+    background-image: url(../../../assets/background.gif);
 }

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "cv-website-a213c": {
+      "hosting": {
+        "cv-website": [
+          "cv-website-a213c"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "cv-website-a213c"
+  }
+}

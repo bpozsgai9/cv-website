@@ -19,7 +19,6 @@ import { MatChipsModule } from '@angular/material/chips';
 import { HttpClientModule } from '@angular/common/http';
 import { EducationComponent } from './pages/education/education.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,

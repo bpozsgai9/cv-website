@@ -30,19 +30,6 @@
         ]
     },
     {
-        "logo_img" : "freelance-logo.png",
-        "work_title" : "Freelancer Web & Graphic Designer",
-        "work_sub_title" : "",
-        "work_date" : "(Sep 2020 - )",
-        "card_img" : "freelance.jpg",
-        "used_techology" : [
-            "Three.js", "Photoshop Scripting", "Electron.js", "Bodymovin Vector Animaitions"
-        ],
-        "information" : [
-            "Fun projects for friends and myself"
-        ]
-    },
-    {
         "logo_img" : "kh.jpg",
         "work_title" : "Software Testing Intern",
         "work_sub_title" : "K&H Bank",
@@ -55,6 +42,19 @@
             "Administration of transaction tests in the bank transfer system (PSD2 project)",
             "Bug hunt and administration, close cooperation with IT Business analysts",
             "IT support for colleagues on the business side"
+        ]
+    },
+    {
+        "logo_img" : "freelance-logo.png",
+        "work_title" : "Freelancer Web & Graphic Designer",
+        "work_sub_title" : "",
+        "work_date" : "(Sep 2020 - )",
+        "card_img" : "freelance.jpg",
+        "used_techology" : [
+            "Three.js", "Photoshop Scripting", "Electron.js", "Bodymovin Vector Animaitions"
+        ],
+        "information" : [
+            "Fun projects for friends and myself"
         ]
     }
 ]

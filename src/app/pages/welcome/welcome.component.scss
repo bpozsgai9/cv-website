@@ -7,19 +7,34 @@ div {
 
 .main_component {
     height: 90vh;
+    background-color: rgb(39,39,39);
+    color: white;
+    background-image: url(../../../assets/moving_cafe.gif);
+    background-size: cover;
 }
 
 .conatiner {
     font-size: xx-large;
-    background-color: brown;
-    width: 50%;
+    width: 30%;
+    top: 20%;
 }
 
 .my_icon {
     justify-content: flex-end;
 }
 
-.fire {
-    color: purple;
+.spark {
+    color: pink;
     text-decoration: cyan wavy underline;
+}
+
+.profile_img {
+    border-radius: 100%;
+    width: 150px;
+    filter: grayscale(100%);
+    border: 10px solid purple;
+}
+
+.my_a {
+    width: 25px;
 }
